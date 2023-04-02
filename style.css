@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    text-decoration: none;
+    color: #333;
+}
+
+body{
+    line-height: inherit;
+}
+
+header{
+    margin: 0 0 20px 0px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 10px;
+}
+
+nav h3{
+    color: #fff;
+}
+
+nav ul{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+
+a{
+    color: #fff;
+}
+
+nav ul li a:hover{
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 500ms;
+}
+
+.container{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_display{
+    text-align: center;
+    background: grey;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#_jogar{
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#_jogo{
+    padding: 9px;
+}
